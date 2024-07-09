@@ -1,0 +1,36 @@
+/* assets/components/Historia.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&family=Teko:wght@300..700&display=swap');
+.historiaContainer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #86aeeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    margin-bottom: 20px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .fundacao{
+    width: 50%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-justify:newspaper;
+    font-size: 45px;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @media (max-width: 768px) 
+  {.fundacao
+ {
+  font-size: 40px;
+  text-justify:newspaper;
+  width: 80%;
+
+
+}}

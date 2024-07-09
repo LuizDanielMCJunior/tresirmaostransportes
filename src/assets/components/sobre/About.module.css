@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Aboutdiv {
+  margin-top: 20px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Svgs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.Svgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Svgs p {
+  text-align: center;
+  margin-top: 10px;
+}

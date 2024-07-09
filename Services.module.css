@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.parentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.styledTitulo {
+    border-radius: 20px;
+    background-color: #000000;
+    margin-top: 10px;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 100px;
+    color: #86aeeb;
+}
+
+.styledDiv {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.styledNav {   
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 100px;
+}
+
+.mainContent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    background-color: #86aeeb;
+}
+
+@media (max-width: 768px) {
+    .styledNav {
+        margin-top: 50px;
+        padding: 5px;
+    }
+    .styledDiv {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body {
+    background-color: rgba(113, 161, 206, 0.7);
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.4s ease;
+}
+
+.imgIveco {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.4s ease;
+}
+
+.textOverlay {   
+    height: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #71a1ce;
+    width:100%;
+    padding: 20px;
+}
+
+.ListaFretes { 
+    font-family: "Black Ops One", system-ui;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+.navigationButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 50px;
+    background-color: #71a1ce;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #86aeeb;
+}
+
+.pauseButton {
+    height: 50px;
+}
+
+.pauseButton:hover {
+    background-color: #86aeeb;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%; 
+    }
+
+    .img{
+        max-width: 300px; 
+    }
+     
+
+    .textOverlay {
+        height: auto;
+        padding: 2px; 
+    }
+
+    .ListaFretes {
+        font-size: 20px; 
+    }
+
+    .navigationButtons {
+        margin-top: 10px; 
+    }
+
+    button {
+        padding: 8px 16px; 
+        margin: 0 5px; 
+    }
+}
